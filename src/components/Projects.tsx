@@ -18,18 +18,6 @@ const Projects = () => {
     if (carouselRef.current) {
       carouselRef.current.scrollTo(0);
     }
-
-    const interval = setInterval(() => {
-      if (carouselRef.current) {
-        if (carouselRef.current.canScrollNext()) {
-          carouselRef.current.scrollNext();
-        } else {
-          carouselRef.current.scrollTo(0);
-        }
-      }
-    }, 3000); // Auto-rotate every 3 seconds
-
-    return () => clearInterval(interval);
   }, []);
 
   const projects = [
@@ -108,7 +96,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <Carousel ref={carouselRef} opts={{ loop: true, startIndex: 0 }} className="w-full max-w-5xl mx-auto">
+        <Carousel ref={carouselRef} opts={{ loop: true, startIndex: 1 }} className="w-full max-w-5xl mx-auto">
           <CarouselContent className="-ml-2 md:-ml-4">
             {projects.map((project, index) => (
               <CarouselItem key={index} className="pl-2 md:pl-4 basis-1/3">

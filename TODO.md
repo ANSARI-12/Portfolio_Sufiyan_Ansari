@@ -7,7 +7,7 @@
   - `{{from_name}}` - Sender's name
   - `{{from_email}}` - Sender's email
   - `{{message}}` - Message content
-  - `{{to_email}}` - Your email (ansarishufiyan@gmail.com)
+  - `{{to_email}}` - Your email address
 - [ ] Get your Service ID, Template ID, and Public Key
 - [ ] Replace the placeholder values in `src/components/Contact.tsx`:
   - Service ID: 'service_123456789'
@@ -20,9 +20,11 @@
 - Go to https://dashboard.emailjs.com/
 - Sign in to your account
 
-### 2. Create Email Service (Already Done)
-- ✅ You already have Service ID: `service_x7kzcyp`
-- ✅ Connected to Gmail: ansarishufiyan@gmail.com
+### 2. Create Email Service
+- Click on "Email Services" in the left sidebar
+- Click "Add New Service"
+- Choose your email provider (Gmail, Outlook, etc.)
+- Follow the authentication steps to connect your email
 
 ### 3. Create Email Template
 - Click on "Email Templates" in the left sidebar
@@ -33,7 +35,7 @@
 - Template Name: `Portfolio Contact Form`
 
 **To Email:**
-- `ansarishufiyan@gmail.com`
+- Your email address
 
 **From Email:**
 - `noreply@emailjs.com` (use this default)
@@ -79,26 +81,22 @@
 - Click "Save" to create the template
 - After saving, you'll see the Template ID in the template list (it will look like `template_abc123`)
 
-### 4. Get Your Credentials (Partially Done)
-- ✅ You already have Public Key: `gtr6xRE1uxOxgo78w`
-- 🔄 You need to get the Template ID from step 3 above
+### 4. Get Your Credentials
+- Service ID: Found in Email Services section
+- Template ID: Found in Email Templates section
+- Public Key: Found in Account settings
 
-### 5. Update Your Code (COMPLETED)
-- ✅ Code has been updated with all credentials
-- ✅ Contact form is now ready to send emails
-
-**Current Status:**
-- Service ID: ✅ `service_mrw8z2d`
-- Public Key: ✅ `gtr6xRE1uxOxgo78w`
-- Template ID: ✅ `template_6o6c55x`
-- Code Update: ✅ Completed
+### 5. Update Your Code
+- Replace the placeholder values in `src/components/Contact.tsx` with your actual credentials
+- Test the contact form to ensure emails are sent successfully
 
 ## Testing
 - [ ] Test the contact form submission
-- [ ] Verify emails are received at ansarishufiyan@gmail.com
+- [ ] Verify emails are received at your email address
 - [ ] Check error handling for failed submissions
 
 ## Notes
 - EmailJS provides a free tier with 200 emails per month
 - The form will now send actual emails instead of just showing a success message
 - Make sure to configure your email service properly in EmailJS dashboard
+- Keep your credentials secure and never commit them to version control
