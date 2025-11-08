@@ -132,10 +132,26 @@ The portfolio is fully responsive with breakpoints for:
 
 ## 🚀 Deployment
 
-The project is deployed on the Lovable platform. To deploy updates:
+The project is deployed on **Vercel** and **Lovable** platforms.
 
+### Live Demo
+🌐 **Vercel Deployment**: https://portfolio-o2ksc2kqh-sufiyan-ansaris-projects.vercel.app
+
+### Deployment Options
+
+#### Vercel (Recommended)
+- **URL**: https://portfolio-o2ksc2kqh-sufiyan-ansaris-projects.vercel.app
+- **Features**: Automatic deployments from GitHub, fast performance, global CDN
+- **Setup**: Connected to GitHub repository for automatic deployments
+
+#### Lovable
+- **URL**: https://lovable.dev/projects/73a45f84-1285-4868-8897-89b9f545366b
+- **Features**: Easy editing interface, instant previews
+
+### Deploy Updates
 1. Push changes to the main branch on GitHub
-2. Changes are automatically reflected in the live site
+2. Vercel automatically deploys the updates
+3. Changes are reflected in both deployment URLs
 
 ## 📞 Contact
 
