@@ -144,10 +144,6 @@ The project is deployed on **Vercel** and **Lovable** platforms.
 - **Features**: Automatic deployments from GitHub, fast performance, global CDN
 - **Setup**: Connected to GitHub repository for automatic deployments
 
-#### Lovable
-- **URL**: https://lovable.dev/projects/73a45f84-1285-4868-8897-89b9f545366b
-- **Features**: Easy editing interface, instant previews
-
 ### Deploy Updates
 1. Push changes to the main branch on GitHub
 2. Vercel automatically deploys the updates
