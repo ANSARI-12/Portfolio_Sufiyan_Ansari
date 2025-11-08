@@ -18,7 +18,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 - **Icons**: Lucide React, FontAwesome
 - **Forms**: React Hook Form, Zod validation
 - **Email**: EmailJS for contact form
-- **Deployment**: Lovable platform
+- **Deployment**: Vercel
 
 ## 📁 Project Structure
 
@@ -132,14 +132,12 @@ The portfolio is fully responsive with breakpoints for:
 
 ## 🚀 Deployment
 
-The project is deployed on **Vercel** and **Lovable** platforms.
+The project is deployed on **Vercel**.
 
 ### Live Demo
 🌐 **Vercel Deployment**: https://portfolio-o2ksc2kqh-sufiyan-ansaris-projects.vercel.app
 
-### Deployment Options
-
-#### Vercel (Recommended)
+### Deployment Features
 - **URL**: https://portfolio-o2ksc2kqh-sufiyan-ansaris-projects.vercel.app
 - **Features**: Automatic deployments from GitHub, fast performance, global CDN
 - **Setup**: Connected to GitHub repository for automatic deployments
@@ -147,7 +145,7 @@ The project is deployed on **Vercel** and **Lovable** platforms.
 ### Deploy Updates
 1. Push changes to the main branch on GitHub
 2. Vercel automatically deploys the updates
-3. Changes are reflected in both deployment URLs
+3. Changes are reflected in the live deployment URL
 
 ## 📞 Contact
 
