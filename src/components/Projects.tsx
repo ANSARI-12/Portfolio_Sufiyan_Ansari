@@ -27,7 +27,7 @@ const Projects = () => {
       tech: ["React JS", "JavaScript", "CSS", "Bootstrap", "REST API", "JWT"],
       liveLink: "https://sufiyanNxtTrend.ccbp.tech",
       category: "E-Commerce",
-      year: "2024",
+      year: "2025",
     },
     {
       title: "Jobby App",
@@ -35,7 +35,7 @@ const Projects = () => {
       tech: ["React JS", "JavaScript", "CSS", "Bootstrap", "REST API", "JWT"],
       liveLink: "https://sufiyanJobby.ccbp.tech",
       category: "Job Portal",
-      year: "2024",
+      year: "2025",
     },
     {
       title: "Todos Application",
@@ -59,14 +59,14 @@ const Projects = () => {
       tech: ["React JS", "JavaScript"],
       liveLink: "https://sufiyanipl.ccbp.tech/",
       category: "Sports",
-      year: "2024",
+      year: "2025",
     },
     {
       title: "Movie Database",
       description: "Developed a Movie Database application with React enabling users to browse popular, top-rated, and upcoming movies, and search for specific titles.",
       tech: ["React JS", "JavaScript", "MySQL"],
       category: "Entertainment",
-      year: "2024",
+      year: "2025",
     },
     {
       title: "Blockchain Voting System",
@@ -80,8 +80,50 @@ const Projects = () => {
       description: "Designed and developed a dynamic search interface that interacts with the Wikipedia API to fetch and display real-time search results. The application features a clean UI, responsive layout, and intuitive user experience using modern web technologies.",
       tech: ["HTML", "CSS", "JavaScript", "REST API", "Bootstrap"],
       category: "UI Component",
-      year: "2024",
+      year: "2025",
     },
+     {
+  title: "Job Listing App",
+  description: "A responsive job board application designed to browse and manage career opportunities. Features real-time search functionality and multi-criteria filtering for location and job type, built with a focus on component modularity and efficient state management.",
+  tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "ES6"],
+  liveLink: "https://job-listing-app-hazel.vercel.app",
+  category: "Job Portal",
+  year: "2026", 
+},
+{
+  title: "Shopping Cart App",
+  description: "A comprehensive full-stack e-commerce solution featuring secure JWT authentication, admin product management, and real-time cart/wishlist synchronization. Includes integrated order history tracking and a responsive UI designed for seamless desktop and mobile browsing.",
+  tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT", "Axios"],
+  liveLink: "https://ecommerce-shopping-cart-app-1.onrender.com",
+  category: "E-Commerce",
+  year: "2026",
+},
+{
+  title: "MVC Architecture Project",
+  description: "A backend-focused implementation utilizing the Model-View-Controller design pattern to decouple data access, user interface, and complex business logic. Features a custom calculation engine that categorizes task difficulty—Easy, Medium, and Hard—and applies weighted scoring percentages as core business rules.",
+  tech: ["Node.js", "Express", "MongoDB", "JavaScript"],
+  liveLink: "https://github.com",
+  category: "Backend Development",
+  year: "2026",
+},
+
+{
+  title: "Paste App",
+  description: "A modern text management application designed for creating, storing, and organizing snippets. It features a clean, responsive UI with persistent storage via localStorage and real-time state updates. Built with the latest React 19 standards to provide a seamless user experience across mobile and desktop devices.",
+  tech: ["React 19", "Redux Toolkit", "React Router", "Tailwind CSS", "Vite"],
+  liveLink: "https://paste-app-iota-beige.vercel.app",
+  category: "Productivity Tool",
+  year: "2026",
+},
+{
+  title: "Razorpay Clone",
+  description: "A pixel-perfect landing page clone of India's leading payment gateway. This project focuses on high-fidelity UI reproduction, featuring a fully responsive design, intricate layouts, and modern web aesthetics to mimic the professional user experience of the original platform.",
+  tech: ["HTML", "CSS", "Tailwind CSS"],
+  liveLink: "https://razorpay-clone-lac-zeta.vercel.app",
+  category: "UI/UX Clone",
+  year: "2026",
+},
+
   ];
 
   return (
