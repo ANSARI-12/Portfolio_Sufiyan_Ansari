@@ -51,7 +51,7 @@ const Projects = () => {
       tech: ["React JS", "JavaScript", "CSS"],
       liveLink: "https://sufiresturant.ccbp.tech/",
       category: "Food & Dining",
-      year: "2024",
+      year: "2025",
     },
     {
       title: "IPL Dashboard",
